@@ -1,0 +1,6 @@
+(define (fast-expt b n)
+  (define (iter acc count)
+    (cond ((= count 0) acc)
+          ((= count 1) (* acc b))
+          ((>= count 2) (iter (* acc b b) (- count 2)))))
+  (iter 1 n))

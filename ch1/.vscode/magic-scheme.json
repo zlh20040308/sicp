@@ -1,0 +1,7 @@
+{
+  "topEnvironment": "R6RS",
+  "multiThread": "enable",
+  "typeInference": "enable",
+  "logPath": ".vscode/scheme-langserver.log",
+  "cachePath": ".vscode/scheme-langserver-cache"
+}

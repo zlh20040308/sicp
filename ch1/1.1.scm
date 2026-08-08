@@ -1,0 +1,15 @@
+(newline)
+(display "10 = ")
+(display 10)
+(newline)
+(display "(+ 5 3 4) = ")
+(display (+ 5 3 4))
+(newline)
+(display "(- 9 1) = ")
+(display (- 9 1))
+(newline)
+(display "(/ 6 2) = ")
+(display (/ 6 2))
+(display)
+
+

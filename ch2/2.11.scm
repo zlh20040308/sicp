@@ -1,0 +1,6 @@
+(define (contains-zero interval)
+  (let ((interval-upper-bound (upper-bound y))
+        (interval-lower-bound (lower-bound y)))
+    (or (= interval-upper-bound 0)
+               (= interval-lower-bound 0)
+               (< (* interval-upper-bound interval-lower-bound) 0))))
